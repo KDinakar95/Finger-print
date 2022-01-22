@@ -1,0 +1,284 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:san-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.connecta{
+   display: flex;
+   justify-content: right;
+   }
+   .connecta i{
+       margin:0 20px;
+       color: blue;
+   }
+   .link{
+       display: flex;
+       justify-content: space-between;
+
+   }
+   .link img{
+       margin-left: 50px;
+   }
+   .link ul{
+       list-style-type: none;
+       display:flex;
+     
+   }
+   .link ul li{
+       margin-top: 30px;
+       margin-left: 70px;
+       margin-right: 35px;
+       
+   }
+  .link ul li a{
+       text-decoration: none;
+       color: black;
+   }
+   .link ul li .active{
+      
+       padding: 15px;
+       border-radius: 10px;
+       background-color: blue;
+       color:white;
+   }
+   .main{
+       position: relative;
+   }
+   .mind{
+       position:absolute;
+       top:180px;
+   }
+.main img{
+    width:100%;
+    height:50vh;
+}
+   .mind h1{
+    padding: 40px;
+    font-size: 70px;
+    color: white;
+   }
+   .mind p{
+       margin-left:40px;
+       color: white;
+   }
+   /* .mind a{
+       text-decoration: none;
+       padding: 10px;
+       background-color: white;
+       color: black;
+       margin-left:40px;
+       margin-top: 80px;
+   } */
+   .mind .btn{
+       
+       margin-left:40px;
+       margin-top: 40px;
+   }
+   .mind .btn a{
+    text-decoration: none;
+    padding: 10px;
+       background-color: white;
+       color: black;
+       border-radius:10px;
+   }
+   #about{
+       display: flex;
+       justify-content: space-around;
+   }
+   #about h1{
+       font-size:70px;
+   }
+   #about p{
+       margin:40px;
+   }
+   .client{
+       text-align:center;
+   }
+   .pro1{
+       display: flex;
+   }
+   .connect{
+       display: inline-block;
+       margin-top: 70px;
+       margin-left:150px;
+   }
+   .connect h1{
+font-size: 50px;
+   }
+   .connect h2{
+       font-size:30px;
+       color:blue;
+   }
+   .connect p{
+       font-size:30px;
+       line-height: 35px;
+   }
+   .btn1 {
+     width:30%;
+       padding:10px;
+       margin-top:20px;
+       border:1px solid black;
+       border-radius: 10px;
+      background-color: blue;
+      text-align: center;
+
+   }
+   .btn1 a{
+    color:white;
+text-decoration: none;
+}
+.pro2{
+    display:flex;
+}
+.pro2 img{
+    margin-left: 350px;
+}
+.connect1{
+    margin-top:200px;
+    margin-left:40px;
+}
+.connect1 h2{
+color: blue;
+font-size:30px;
+}
+.connect1 h1{
+    font-size:30px;
+}
+.connect1 p{
+    font-size: 20px;
+}
+.btn2{
+    width:40%;
+    padding:8px;
+    margin-top:20px;
+    border:1px solid black;
+    border-radius: 10px;
+   background-color: blue;
+   text-align: center;
+
+}
+.btn2 a{
+color:white;
+text-decoration: none;;
+}
+.pro3{
+    display: flex;
+}
+.connect2{
+    margin-top:60px;
+    margin-left: 200px;
+}
+.connect2 h2{
+    color: blue;
+    font-size:30px;
+    }
+    .connect2 h1{
+        font-size:30px;
+    }
+    .connect2 p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .btn3{
+        width:40%;
+        padding:8px;
+        margin-top:20px;
+        border:1px solid black;
+        border-radius: 10px;
+       background-color: blue;
+       text-align: center;
+    
+    }
+    .btn3 a{
+    color:white;
+    text-decoration: none;;
+    }
+    #factory h1{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .pic1{
+        width:90%;
+        margin:0 auto;
+    }
+    .pic1 img{
+        width:100%;
+        height: 80vh;
+        border-radius: 10px;
+    }
+    .subpic{
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .subpicimg1{
+        width:48%;
+        height: 350px;
+        margin:10px auto;
+        
+    }
+    .subpicimg2{
+        width:48%;
+        height: 350px;
+        margin:10px auto;
+        
+    }
+    .subpicimg1 img{
+        width:100%;
+        height: 100%;
+        border-radius:10px; 
+    } 
+    .subpicimg2 img{
+        width:100%;
+        height: 100%;
+        border-radius:10px; 
+    }
+    #footer{
+        height: 50vh;
+    }
+    .contactinfo{
+        width:45%;
+    }
+    .contactinfo h1{
+        font-size: 50px;
+    }
+    .contactinfo p{
+        line-height: 30px;
+    }
+    .form{
+        width:30%;
+       /* border: 1px solid black; */
+       padding: 10px;
+       box-shadow: 5px 5px 10px;
+    }
+    form input{
+        border: none;
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    form select{
+        border: none;
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .contact{
+        width:90%;
+        display:flex;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+.subbtn{
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+.all{
+    margin-top: 30px;
+    text-align: center;
+}
